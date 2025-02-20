@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>EVasquez_AdvocacyProject</title>
+        <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+        <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+        <link href="styles/dark-mode.css" rel="stylesheet" type="text/css" />
+        <link href="styles/scholarship-section.css" rel="stylesheet" type="text/css" />
+
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="logo">
+                <img id="monarch-logo" src="imgs/monarch.png" alt="Monarch Logo">
+                <h1>PEC</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#scholarships">Scholarships</a></li>
+                <li><a href="#college-support">College Support</a></li>
+                <li><a href="#career-development">Career Development</a></li>
+                <li><a href="#success-stories">Success Stories</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <li ><button id="theme-button">Toggle Dark Mode</button></li>
+                <li ><button id="reduce-motion-button">Reduce Motion</button></li>
+                <li><a href="https://www.ilrc.org/donate-now#:~:text=The%20Immigrant%20Legal%20Resource%20Center,Tax%20ID%20%2394%2D2939540." target="_blank" id="donate-btn">Donate</a></li>
+            </ul>
+        </nav>
+
+        <div class="site-container">
+            <header class="header-container">
+                <img id="graduation-img" src="imgs/grad-cap.jpeg" alt="Graduation Photo">
+                <div id="header-text">
+                    <h1>Pathways to Education and Career</h1>
+                    <p>Empowering Undocumented Students to Succeed</p>
+                </div>
+            </header>
+    
+            <section class="revealable" id="scholarship-section">
+                <h2>Find Scholarships</h2>
+                <p>Discover scholarships that don't require citizenship or residency status.</p>
+                <!-- Add scholarship-related content here -->
+                <div class="scholarship-cards">
+                    <div class="scholarship-card">
+                        <h3>Que Llueva Café Scholarship</h3>
+                        <p>Eligibility: High School Students</p>
+                        <p>Amount: Varies</p>
+                        <a href="https://ca-core.org/scholarship/" target="_blank" class="apply-button">Apply Now</a>
+                    </div>
+    
+                    <div class="scholarship-card">
+                        <h3>Chin: Shui Kuen and Allen Chin Scholarship</h3>
+                        <p>Eligibility: Rising freshman or current, full-time undergraduate at a two-year community college or four-year college/university in 2024-25</p>
+                        <p>Amount: $1,000</p>
+                        <a href="https://asianpacificfund.org/what-we-do/scholarships/apply-for-scholarship/" target="_blank" class="apply-button">Apply Now</a>
+                    </div>
+    
+                    <div class="scholarship-card">
+                        <h3>Esperanza Fund Scholarship</h3>
+                        <p>Eligibility: Students from Maryland, Virginia, and Washington, DC who are immigrants or the children of immigrants.</p>
+                        <p>Amount: $5,000 - $20,000</p>
+                        <a href="https://ca-core.org/scholarship/" target="_blank" class="apply-button">Apply Now</a>
+                    </div>
+                </div>
+    
+            </section>
+        
+            <section class="revealable" id="college-support">
+                <h2>College and University Support</h2>
+                <p>Explore schools that support undocumented and DACA students.</p>
+                <!-- Add college/university info later -->
+                <p>Coming Soon...</p>
+            </section>
+        
+            <section class="revealable" id="career-development">
+                <h2>Career Development Resources</h2>
+                <p>Access job boards, internships, and mentorship opportunities.</p>
+                <!-- Add career resources here --> 
+                <p>Coming Soon...</p>  
+            </section>
+
+            <section class="revealable" id="success-stories">
+                <h2>Success Stories</h2>
+                <p>Be inspired by stories of undocumented individuals pursuing their dreams.</p>
+                <!-- Add success stories here -->
+                <div class="sources-row">
+                    <a href="https://www.forbes.com/sites/stuartanderson/2023/12/14/the-most-inspiring-immigration-stories-of-2023/" target="_blank" class="source">
+                        <img src="imgs/forbes-article-img.png" alt="Forbes - Most Inspiring Immigrant Stories of 2023">
+                    </a>
+                    
+                    <div class="source video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/E2vlKAYbbOw?si=fs-h-4356FlRL2Eb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+    
+                    <a href="https://www.carnegie.org/our-work/category/voting-immigration/tag/immigration/" target="_blank" class="source">
+                        <img src="imgs/great-immigrant.jpg" alt="Immigrant Success Stories Comic Series">
+                    </a>
+                </div>
+            </section>
+    
+            <section class="revealable" id="petition">
+                <h2>Sign Our Petition 📢</h2>
+        
+                <div class="petition-container">
+                    <div class="petition-para">
+                        <p>Every year, thousands of undocumented students are denied access to higher education and career opportunities due to outdated policies and lack of institutional support. We believe everyone deserves the right to pursue their dreams, regardless of immigration status. This petition calls on lawmakers and educational institutions to create more inclusive scholarship programs and provide resources specifically for undocumented students. By signing, you stand with these students and support a future where education and opportunity are accessible to all.</p>
+                        <p>Let's raise our voices to ensure all students have the chance to thrive. Join us in making a difference!</p>
+                    </div>
+    
+                    <div class="signatures">
+                        <p>🖊️ DJ from Brooklyn supports this.</p>
+                        <p>🖊️ Amy from Queens supports this.</p>
+                        <p>🖊️ Teresa from Harlem supports this.</p>
+                        <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+                    </div>
+                </div>
+    
+                <!--- Sign Petition Form --->
+                <form id="sign-petition" title="sign-petition">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="hometown">Hometown:</label>
+                    <input type="text" id="hometown" name="hometown" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </form>
+    
+                <!--- Sign Now Button --->
+                <button id="sign-now-button">Sign Now</button>
+            </section>
+
+            <section class="revealable" id="contact">
+                <h2>Contact Us</h2>
+                <p>Coming Soon...</p>
+            </section> 
+        </div>
+    
+        <footer>
+            <p>Related Sites</p>
+            <div>
+                <a href="https://miracoalition.org/news/category/resources/">MIRA (Resources in Massachusetts)</a>
+                <a href="https://unitedwedream.org/resources/">UnitedWeDream Resources</a>
+            </div>
+            <p>&copy; 2024 Pathways to Education and Career</p>
+        </footer>
+
+        <!-- Modal -->
+        <div id="thanks-modal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+            <div id="modal-text-container">
+                <!-- text here -->
+                 <p id="thanks-modal-content">Thank you for your contribution!</p>
+                <!-- button here (stretch feature) -->
+                 <button id="modal-close-btn">Close</button>
+            </div>
+            <!-- image here-->
+             <img id="modal-img" src="imgs/cute_butter.jpg">
+            </div>
+            
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

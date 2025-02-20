@@ -1,0 +1,57 @@
+
+#theme-button {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #404040;
+    color: white;
+    transition: background-color 0.2s ease, box-shadow 0.3s ease;
+}
+
+#theme-button:hover {
+    background-color: #000;
+}
+
+/* Dark mode for body */
+.dark-mode-body {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Dark mode for nav bar */
+.dark-mode-nav {
+    background-color: #333;
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+.dark-mode-nav .nav-links a {
+    color: #ddd;
+}
+
+.dark-mode-nav .nav-links a:hover {
+    color: #ffdd57;
+}
+
+/* Dark mode for header */
+.dark-mode-header {
+    background-color: #1a1a1a;
+    transition: background-color 0.2s ease;
+}
+
+/* Dark mode for section headers and text */
+.dark-mode-section {
+    background-color: #242424;
+    color: #e0e0e0;
+    transition: background-color 0.2s ease;
+}
+
+.dark-mode-section h2 {
+    color: #e0e0e0;
+}
+
+/* Dark mode for footer */
+.dark-mode-footer {
+    background-color: #333;
+    color: #ddd;
+    transition: background-color 0.2s ease;
+}
